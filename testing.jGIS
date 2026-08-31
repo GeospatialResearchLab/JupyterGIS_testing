@@ -1,0 +1,115 @@
+{
+  "annotations": {},
+  "layerTree": [
+    "33dafab8-13ca-433c-b565-bd31a4bc9cb0",
+    "9d018141-51f1-42e7-b344-b9d631ad961e",
+    "e4828606-6da7-4310-9d8b-35dff542e71b"
+  ],
+  "layers": {
+    "33dafab8-13ca-433c-b565-bd31a4bc9cb0": {
+      "name": "NASAGIBS.ModisTerraTrueColorCR Layer",
+      "parameters": {
+        "opacity": 1.0,
+        "source": "87fc4b0d-4bfe-4765-b83d-0176b919ac0c"
+      },
+      "type": "RasterLayer",
+      "visible": true
+    },
+    "9d018141-51f1-42e7-b344-b9d631ad961e": {
+      "name": "Testing this thing out",
+      "parameters": {
+        "content": {
+          "contentMode": "map",
+          "image": "",
+          "imageCaption": "",
+          "panelWidth": "25%"
+        },
+        "extent": [
+          -20037508.342789244,
+          -11210173.58637128,
+          20037508.342789244,
+          11210173.58637128
+        ],
+        "layerOverride": [],
+        "transition": {
+          "time": 1.0,
+          "type": "linear"
+        },
+        "zoom": 2.1163439612374684
+      },
+      "type": "StorySegmentLayer",
+      "visible": true
+    },
+    "e4828606-6da7-4310-9d8b-35dff542e71b": {
+      "name": "still testing",
+      "parameters": {
+        "content": {
+          "contentMode": "markdown",
+          "markdown": "* Here's a thing I wrote"
+        },
+        "extent": [
+          -20037508.342789244,
+          -11210173.58637128,
+          20037508.342789244,
+          11210173.58637128
+        ],
+        "layerOverride": [],
+        "transition": {
+          "time": 1.0,
+          "type": "linear"
+        },
+        "zoom": 2.1163439612374684
+      },
+      "type": "StorySegmentLayer",
+      "visible": true
+    }
+  },
+  "metadata": {},
+  "options": {
+    "bearing": 0.0,
+    "extent": [
+      -20037508.342789244,
+      -11210173.58637128,
+      20037508.342789244,
+      11210173.58637128
+    ],
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "pitch": 0.0,
+    "projection": "EPSG:3857",
+    "zoom": 2.1163439612374684
+  },
+  "presets": {},
+  "schemaVersion": "0.6.0",
+  "sources": {
+    "87fc4b0d-4bfe-4765-b83d-0176b919ac0c": {
+      "name": "NASAGIBS.ModisTerraTrueColorCR",
+      "parameters": {
+        "attribution": "Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (ESDIS) with funding provided by NASA/HQ.",
+        "maxZoom": 9.0,
+        "minZoom": 1.0,
+        "url": "https://map1.vis.earthdata.nasa.gov/wmts-webmerc/{variant}/default/{time}/{tilematrixset}{max_zoom}/{z}/{y}/{x}.{format}",
+        "urlParameters": {
+          "format": "jpg",
+          "maxZoom": 9.0,
+          "tilematrixset": "GoogleMapsCompatible_Level",
+          "time": "2026-08-24",
+          "variant": "MODIS_Terra_CorrectedReflectance_TrueColor"
+        }
+      },
+      "type": "RasterSource"
+    }
+  },
+  "stories": {
+    "6f1b06b2-5198-4e97-b80c-6a309a7efbc4": {
+      "overlayContentWidth": "100%",
+      "storySegments": [
+        "9d018141-51f1-42e7-b344-b9d631ad961e",
+        "e4828606-6da7-4310-9d8b-35dff542e71b"
+      ],
+      "storyType": "guided",
+      "title": "New Story"
+    }
+  },
+  "viewState": {}
+}
